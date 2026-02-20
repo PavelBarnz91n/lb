@@ -1,0 +1,84 @@
+/*HEADER*/
+/*LOGO*/
+/*SEARCH-BOX*/
+/*CONTENT-BOX*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.LB {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/fon.jpg") no-repeat center/cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*HEADER*/
+.LB_header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 3px solid lightgreen;
+    box-sizing: border-box;
+}
+
+/*LOGO*/
+.LB_logo-box {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+/*SEARCH-BOX*/
+.LB_search-box {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LB_search-ttk {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    outline: none;
+}
+
+.clear {
+    width: 28px;
+    height: 28px;
+
+    border: none;
+    margin-left: 10px;
+    background: url("../images/clear.jpg") no-repeat center/100%;
+}
+.clear:active {
+    background: url("../images/clear-active.jpg") no-repeat center/100%;
+}
+
+/*CONTENT-BOX*/
+.LB_content-box {
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 10px;
+
+    overflow: auto;
+}
